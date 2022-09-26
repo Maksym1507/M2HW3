@@ -12,7 +12,7 @@ namespace M2HW3
             var anton = new FourthYearStudent("Anton", 20, false, "0183952219", 83);
             var vlad = new FirstYearStudent("Vlad", 18, false, "0121656025", 60);
 
-            Student[] students = {ivan, oleg, anton, vlad};
+            Student[] students = { ivan, oleg, anton, vlad };
 
             foreach (var student in students)
             {
@@ -24,7 +24,6 @@ namespace M2HW3
             Console.WriteLine($"Student with the longest name\n{studentWithTheLongestName}");
 
             studentWithTheLongestName.Studying();
-
         }
     }
 }
